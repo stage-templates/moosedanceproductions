@@ -1,16 +1,63 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en-US">
+	<!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{#if title}}{{ title }}{{else}}{{ name }}{{/if}}</title>
         <meta name="description" content="{{ description }}">
-        <link rel="stylesheet" href="/assets/css/app.css?v={{version}}" type="text/css"/>
+		<!-- +++ Load all the CSS Files with styles.css +++ -->
+        <!-- TODO: <link rel="stylesheet" href="/assets/css/app.css?v={{version}}" type="text/css"/> -->
+        <link rel="stylesheet" href="/assets/css/styles.css" type="text/css"/>
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- +++ Load Favicon Favicons +++  -->
+		<link rel="shortcut icon" href="images/favicon.ico">
 
         {{#> head-block}}
             {{!-- Custom <head> content per page could be added. --}}
         {{/head-block}}
     </head>
-    <body>
-        <main>
+    <body class="home-bg">
+		<div class="header">
+			<header>
+				<div class="container_16">
+					<div class="grid_5" >
+						<div class="socialmedia">
+							<ul>
+								<li class="facebook"><a href="https://www.facebook.com/moosedanceproductions" target="_blank">Facebok</a></li>
+								<li class="twitter"><a href="https://twitter.com/moosedanceprod" target="_blank">Twitter</a></li>
+								<li class="youtube"><a href="#">YouTube</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid_11" >
+						<div class="headeryoutubelink">
+							<img src="assets/images/youtube-partner.png" border="0" style="margin-top: 4px;" />
+						</div>
+					</div>
+					<div class="grid_16">
+						<div class="nav">
+							<ul>
+								<li><a href="about.html">ABOUT</a></li>
+								<li><a href="work.html">WORK</a></li>
+
+								<li class="logo" style="width: 385px; border: none;"><a href="index.html"><img src="assets/images/logo.png" border="0" style="
+width: 385px;margin-top: -107px; " /></a></li>
+								<li><a href="clientsandawards.html">CLIENTS & AWARDS</a></li>
+								<li><a href="contact.html">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+        	<main>
+
