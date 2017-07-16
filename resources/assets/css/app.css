@@ -2,3 +2,5 @@
  * app.css
  */
 @import './_vars.css';
+@import './old/styles';
+
