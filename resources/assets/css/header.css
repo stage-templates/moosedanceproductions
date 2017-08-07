@@ -51,18 +51,15 @@
 .nav li a.active {
     color: #57ff57;
 }
-.socialmedia {
-    background: url(../images/social-bg.png) no-repeat left top;
+
+.socials {
+	background: url(../images/social-bg.png) no-repeat left top;
     height: 51px;
-    padding-left: 19px;
+	margin: 0;
+    padding: 0 0 0 1.9rem;
 }
 
-.socialmedia ul {
-    margin: 0;
-    padding: 0;
-}
-
-.socialmedia ul li {
+.socials li {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -72,33 +69,33 @@
     height: 28px;
 }
 
-.socialmedia ul li a {
+.socials li a {
     text-decoration: none;
     display: block;
     height: 28px;
 }
 
-.socialmedia ul li.facebook {
+.socials li.facebook {
     background: url(../images/social-icons.png) no-repeat 0 0;
 }
 
-.socialmedia ul li.facebook:hover {
+.socials li.facebook:hover {
     background-position: 0 -31px;
 }
 
-.socialmedia ul li.twitter {
+.socials li.twitter {
     background: url(../images/social-icons.png) no-repeat -29px 0px;
 }
 
-.socialmedia ul li.twitter:hover {
+.socials li.twitter:hover {
     background-position: -29px -31px;
 }
 
-.socialmedia ul li.youtube {
+.socials li.youtube {
     background: url(../images/social-icons.png) no-repeat -58px 0px;
 }
 
-.socialmedia ul li.youtube:hover {
+.socials li.youtube:hover {
     background-position: -58px -31px
 }
 
