@@ -3,4 +3,6 @@
  */
 @import './_vars.css';
 @import './old/styles';
+@import './main';
+@import './header';
 
