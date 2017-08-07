@@ -1,4 +1,6 @@
-/* Header */
+/*----------------
+	Header
+-----------------*/
 
 .header {
     background: url(../images/header-bg.png) repeat-x center top;
@@ -8,14 +10,19 @@
 	display: none;
 }
 
-/* Navigation */
+/*---------------
+	Navigation
+----------------*/
 
 .nav {
 	background: url(../images/nav-bg.png) no-repeat;
 	display: flex;
+	justify-content: space-between;
 	list-style: none;
-    margin: 0;
+    margin: 3rem auto 0 auto;
+	max-width: 966px;
 	padding: 0;
+	text-align: center;
 }
 .nav li {
     margin: 0;
@@ -24,6 +31,7 @@
     font-size: 18px;
 }
 .logo {
+	margin-top: -6.5rem !important;
 	width: 385px !important;
 }
 
@@ -99,5 +107,4 @@
     position: absolute;
 	right: 0;
     top: 5px;
-	width: 50%;
 }
