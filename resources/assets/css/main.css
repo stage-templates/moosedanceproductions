@@ -1,14 +1,13 @@
 /*------------------
 	Base
 -------------------*/
+
 body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-x: hidden;
     min-height: 100%;
 }
-
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
@@ -24,4 +23,23 @@ h1, h2, h3, h4, h5, h6, p {
 	.container {
 		padding: 0 1rem;
 	}
+}
+.index-bg {
+    @apply --background-image;
+}
+.about-bg {
+    @apply --background-image;
+	background-image: url(../images/md-about-new.jpg);
+}
+.contact-bg {
+	@apply --background-image;
+	background-image: url(../images/md_home_contact.jpg);
+}
+.clientsandawards-bg {
+	@apply --background-image;
+	background-image: url(../images/md_home_clients.jpg);
+}
+.work-bg {
+	@apply --background-image;
+	background-image: url(../images/md_home_work.jpg);
 }
