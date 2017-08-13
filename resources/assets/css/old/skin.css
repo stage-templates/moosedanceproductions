@@ -185,7 +185,7 @@
     opacity: 0.8;
 }
 
-.contactus {
+/*.contactus {
     background: url(../images/contact-bg.png) no-repeat;
     width: 521px;
     height: 89px;
@@ -193,7 +193,7 @@
     vertical-align: middle;
     display: table;
     text-align: center;
-}
+}*/
 
 .awards ul {
     overflow: hidden;

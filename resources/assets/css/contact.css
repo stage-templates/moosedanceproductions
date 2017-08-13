@@ -1,0 +1,28 @@
+/* Contact */
+
+.contact {
+	align-items: center;
+    background: url(../images/contact-bg.png) no-repeat;
+	display: flex;
+	justify-content: center;
+    width: 521px;
+    height: 89px;
+	margin: 180px auto;
+}
+@media (--view-medium) {
+	.contact-link {
+		padding: 0 1rem;
+		& img {
+			max-width: 100%;
+		}
+	}
+}
+@media (--view-small) {
+	.contact {
+		background-repeat: round;
+		width: 100%;
+	}
+	.contact-link {
+		width: 100%;
+	}
+}
