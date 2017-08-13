@@ -4,25 +4,17 @@
 			<div class="clients">
 				<div class="clients-heading"><img src="assets/images/some-clients-heading.png" /></div>
 				<ul class="clients-list">
-					<li><img src="assets/images/jose-logo.png" /></li>
-					<li><img src="assets/images/microsoft-logo.png" /></li>
-					<li><img src="assets/images/usa-today-logo.png" /></li>
-					<li><img src="assets/images/hss-logo-web.png" /></li>
-					<li><img src="assets/images/berman-braun-logo.png" /></li>
-					<li><img src="assets/images/the-winslow-logo.png" /></li>
-					<li><img src="assets/images/tawkers-logo.png" /></li>
-					<li><img src="assets/images/completely-bare-logo.png" /></li>
-					<li><img src="assets/images/cbr-logo.png" /></li>
-					<li><img src="assets/images/mall-meds-logo.png" /></li>
+					{{#each clients}}
+					  <li><img src="assets/images/{{ this.logopath }}"></li>
+					{{/each}}
 				</ul>
 			</div>
 			<div class="clients">
 				<div class="clients-heading"><img src="assets/images/some-awards-heading.png" /></div>
 				<ul class="clients-list">
-					<li>><img src="assets/images/shorty-logo.png" /></li>
-					<li>><img src="assets/images/the-webby-logo.png" /></li>
-					<li>><img src="assets/images/media-awards-logo.png" /></li>
-					<li>><img src="assets/images/abj_award.jpg" /></li>
+					{{#each awards}}
+					  <li><img src="assets/images/{{ this.logopath }}"></li>
+					{{/each}}
 				</ul>
 			</div>
 		</div>
