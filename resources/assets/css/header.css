@@ -12,6 +12,14 @@
 .site-logo {
 	display: none;
 }
+.logo img:hover,
+.site-logo img:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
 
 /*---------------
 	Navigation
