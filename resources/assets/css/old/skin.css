@@ -49,7 +49,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
 
-.whatwedo {
+/*.whatwedo {
     background: url(../images/whatwedo-bg.png) no-repeat;
     min-height: 566px;
     padding-right: 20px;
@@ -94,7 +94,7 @@
     height: 115px;
     vertical-align: middle;
     text-align: center;
-}
+}*/
 
 .jackfont {
     font-size: 17px;

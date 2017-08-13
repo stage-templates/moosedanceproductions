@@ -158,7 +158,6 @@
 		align-items: center;
 		background-color: #fff;
 		background-image: none;
-		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		margin-top: 0;
@@ -207,7 +206,7 @@
 			transform: rotate(-45deg);
 		}
 		& .nav {
-			display: block;
+			display: flex;
 		}
 	}
 }
