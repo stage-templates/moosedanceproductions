@@ -9,6 +9,9 @@
 .menu-toggle {
 	display: none;
 }
+.site-logo {
+	display: none;
+}
 
 /*---------------
 	Navigation
@@ -116,6 +119,7 @@
 		padding-bottom: 1rem;
 	}
 	.site-logo {
+		display: block;
 		position: absolute;
 	    right: 50%;
 	    transform: translateX(50%);
