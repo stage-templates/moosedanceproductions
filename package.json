@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "browser-sync": "^2.18.5",
+        "classlist-polyfill": "^1.2.0",
         "cpx": "^1.5.0",
         "cross-env": "^3.1.4",
         "cssnano": "^3.9.1",
