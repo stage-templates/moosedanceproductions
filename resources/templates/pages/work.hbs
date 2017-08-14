@@ -1,50 +1,21 @@
 {{#> page}}
     {{#*inline "main"}}
-	<div class="contentarea container_16">
-		<div class="grid_16">
-
-			<div class="work">
-				<ul id="da-thumbs" class="da-thumbs">
-
-					<li><a class="fancybox" href="#inline1" title=""> <img src="assets/images/gagnam.jpg" />
-						 <div><span style="font-family:13px;">A video project for Jose Cuervo in which Pro Beach Volleyball players were asked: “Do you know what Gangnam Style is?” The results are… interesting.</span></div>
-
-						<h3>what is gangnam style? <br><span>Client: Jose Cuervo</span></h3></a>
-					</li>
-					<li><a class="fancybox" href="#inline2" title=""><img src="assets/images/foodtricks.jpg" />
-						 <div><span>An animated video for Rodale Publishing called “Amazing Food Tricks With Jill.”</span></div>
-
-						<h3>amazing food tricks  <br><span>Client: Tasted</span></h3></a>
-					</li>
-					<li><a class="fancybox" href="#inline3" title=""><img src="assets/images/dinobbq.jpg" />
-						 <div><span>An episode of “Dude Food,” starring John Stage of the famed Dinosaur BBQ in New York, for Tasted Channel.</span></div>
-
-						<h3>dude food, with dinosaur bbq’s<br><span>Client: Tasted</span></h3></a>
-					</li>
-
-					<li><a class="fancybox" href="#inline4" title=""><img src="assets/images/Cuervo.jpg" />
-						 <div><span>A video for Jose Cuervo, featuring one of the most difficult volleyball trick shots ever filmed </span></div>
-
-						<h3>Impossible Vollyball Shot <br><span>Client: Jose Cuervo</span></h3></a>
-					</li>
-					<li><a class="fancybox" href="#inline5" title=""><img src="assets/images/firefighter.jpg" />
-						 <div><span>Woman V. Workout Episode: Can Model Lauren Berlingeri Handle FDNY Training?</span></div>
-
-						<h3>Woman V. Workout: Model Trains<br><span>Client: Berman Braun</span></h3></a>
-					</li>
-					<li><a class="fancybox" href="#inline6" title=""><img src="assets/images/bigpapi.jpg" />
-						 <div><span>A viral video produced for MLB FanCave, in which Red Sox first baseman David Ortiz gives New Yorkers and Yankees fans a hug.</span></div>
-
-						<h3>Big papi hugs new york <br><span>Client: MLB Fancave </span></h3></a>
-					</li>
-
-				</ul>
-
-			</div>
-
+	<div class="container">
+		<div class="work">
+			<ul id="da-thumbs" class="da-thumbs">
+				{{#each work}}
+				 <li>
+  					<a class="fancybox" href="#inline{{@index}}" title="{{this.title}}">
+	  					<img src="assets/images/{{this.image}}" />
+	  					<div><span style="font-family:13px;">{{this.description}}</span></div>
+	  					<h3>{{this.title}}<br><span>Client: {{this.client}}</span></h3>
+					</a>
+  				</li>
+				{{/each}}
+			</ul>
 		</div>
-
 	</div>
+
 	{{#> scripts-block}}
 		<script src="assets/js/libs/modernizr.custom.97074.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -237,12 +208,14 @@
 		});
 		</script>
 	{{/scripts-block}}
+
 		<style type="text/css">
 		.fancybox-custom .fancybox-skin {
 			box-shadow: 0 0 50px #222;
 		}
 
 		</style>
+
 		<div id="inline1" style="width:950px;display: none;">
 		<table cellspacing="0" cellpadding="0" border="0">
 			<tr>
