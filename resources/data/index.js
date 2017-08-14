@@ -93,7 +93,7 @@ module.exports = {
 			"client": "MLB Fancave",
 			"title": "Big papi hugs new york ",
 			"description": "A viral video produced for MLB FanCave, in which Red Sox first baseman David Ortiz gives New Yorkers and Yankees fans a hug.",
-			"video": "www.youtube.com/embed/NNN6zQdf6ZY",
+			"video": "www.youtube.com/embed//MhriSwt11_k",
 			"image": "bigpapi.jpg"
 		}
 	]
