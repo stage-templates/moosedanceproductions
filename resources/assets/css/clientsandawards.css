@@ -24,9 +24,9 @@
 	align-items: center;
 }
 @media (--view-medium) {
-	.clients {
+	/*.clients {
 		margin-top: var(--mobileSpacing);
-	}
+	}*/
 	.clients-list li {
 		width: 194px;
 	}

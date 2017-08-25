@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+	position: relative;
     height: 100%;
     min-height: 100%;
 }
@@ -15,7 +16,6 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	/*overflow: hidden;*/
 	max-width: 1008px;
 	position: relative;
 }
@@ -24,22 +24,46 @@ h1, h2, h3, h4, h5, h6, p {
 		padding: 0 1rem;
 	}
 }
-.index-bg {
-    @apply --background-image;
+.bg-image {
+	&::before {
+		background-image: url(../images/md_home_image.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+		-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
 }
 .about-bg {
-    @apply --background-image;
-	background-image: url(../images/md-about-new.jpg);
+	&::before {
+		background-image: url(../images/md-about-new.jpg);
+	}
 }
 .contact-bg {
-	@apply --background-image;
-	background-image: url(../images/md_home_contact.jpg);
+	&::before {
+		background-image: url(../images/md_home_contact.jpg);
+	}
+
 }
 .clientsandawards-bg {
-	@apply --background-image;
-	background-image: url(../images/md_home_clients.jpg);
+	&::before {
+		background-image: url(../images/md_home_clients.jpg);
+	}
+
 }
 .work-bg {
-	@apply --background-image;
-	background-image: url(../images/md_home_work.jpg);
+	&::before {
+		background-image: url(../images/md_home_work.jpg);
+	}
+
 }

@@ -4,6 +4,7 @@
 
 .header {
     background: url(../images/header-bg.png) repeat-x center top;
+	position: relative;
 	width: 100%;
 }
 .menu-toggle {
@@ -199,6 +200,7 @@
 	}
 
 	.is-visible {
+		overflow: hidden;
 		& .menu-bar {
 			display: none;
 		}

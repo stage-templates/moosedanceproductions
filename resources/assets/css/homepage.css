@@ -1,17 +1,23 @@
 /* Homepage */
 
 .whatwedo {
-    background: url(../images/whatwedo-bg.png) no-repeat;
-    min-height: 566px;
-    padding-right: 20px;
-    padding-left: 25px;
-    padding-top: 69px;
-	width: 325px;
+    color: #fff;
+	margin-top: var(--mobileSpacing);
+	margin-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+	padding: 15px 15px;
+	border-radius: 2px;
+	max-width: 34rem;
 }
-
+.whatwedo h3 {
+	color: #fff;
+	margin-bottom: 2rem;
+}
 .whatwedo p {
     font-family: arial;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
@@ -20,32 +26,8 @@
 }
 
 .latestwork {
-    background: url(../images/latest-work.png) no-repeat right top;
-    min-height: 322px;
-    padding: 26px 74px;
-}
 
-.our-clients {
-    background: url(../images/our-clients-bg.png) no-repeat right top;
-    padding: 63px 47px;
-}
 
-.our-clients ul {
-    margin: 0;
-    padding: 0px;
-    display: table-row;
-}
-
-.our-clients ul li {
-    margin: 0 8px 0 0;
-    padding: 0;
-    list-style-type: none;
-    display: table-cell;
-    background: url(../images/clients-logo-bg.png) no-repeat;
-    width: 170px;
-    height: 115px;
-    vertical-align: middle;
-    text-align: center;
 }
 
 @media (view-medium) {
