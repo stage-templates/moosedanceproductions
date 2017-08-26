@@ -27,19 +27,13 @@ module.exports = {
 			"logopath": "the-winslow-logo.png"
 		},
 		{
-			"logopath": "tawkers-logo.png"
-		},
-		{
-			"logopath": "completely-bare-logo.png"
-		},
-		{
 			"logopath": "cbr-logo.png"
-		},
-		{
-			"logopath": "mall-meds-logo.png"
 		}
 	],
 	"awards": [
+		{
+			"logopath": "apse.png"
+		},
 		{
 			"logopath": "shorty-logo.png"
 		},

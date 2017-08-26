@@ -40,6 +40,9 @@
 	height: 50px;
 	width: 50px;
 }
+.homepage .clients {
+	width: 100%;
+}
 @media (view-medium) {
 	.whatwedo {
 		margin: 0 auto 0 auto;
