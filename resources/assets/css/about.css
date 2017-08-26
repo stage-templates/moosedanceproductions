@@ -1,7 +1,6 @@
 /* ABOUT */
 
 .about {
-	margin-top: 240px;
 	& a {
     color: #555;
     text-decoration: none;

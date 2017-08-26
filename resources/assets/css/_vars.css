@@ -5,6 +5,7 @@
  :root {
 	/* Spacing between header and content on mobile views */
 	--mobileSpacing: 180px;
+	--desktopSpacing: 50px;
 }
 
  /* Breakpoints */

@@ -7,6 +7,9 @@
 	position: relative;
 	width: 100%;
 }
+.header .container {
+	margin-top: 0;
+}
 .menu-toggle {
 	display: none;
 }

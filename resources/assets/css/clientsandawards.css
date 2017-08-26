@@ -1,8 +1,5 @@
 /* Clients */
 
-.clients {
-	/*margin-top: 50px;*/
-}
 .clients-heading {
 	text-align: center;
 }
@@ -24,9 +21,6 @@
 	align-items: center;
 }
 @media (--view-medium) {
-	/*.clients {
-		margin-top: var(--mobileSpacing);
-	}*/
 	.clients-list li {
 		width: 194px;
 	}

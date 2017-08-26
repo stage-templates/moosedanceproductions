@@ -1,15 +1,19 @@
 /* Homepage */
-
+.homepage {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 .whatwedo {
     color: #fff;
-	margin-top: var(--mobileSpacing);
 	margin-bottom: 2rem;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0,0,0,0.7);
 	padding: 15px 15px;
 	border-radius: 2px;
-	max-width: 34rem;
+	width: 260px;
 }
 .whatwedo h3 {
 	color: #fff;
@@ -20,18 +24,27 @@
     font-size: 14px;
     margin-bottom: 10px;
 }
-
-.contentarea {
-    margin-top: 40px;
+.homepage .swiper-container {
+	margin-bottom: 2rem;
+	width: 100%;
+	max-width: 513px;
 }
-
-.latestwork {
-
-
+.homepage .swiper-pagination-bullet-active {
+	background-color: #fff;
 }
-
+.homepage .swiper-button-prev,
+.homepage .swiper-button-next {
+	background-color: rgba(255,255,255, 0.8);
+	background-size: 30%;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
 @media (view-medium) {
 	.whatwedo {
-		margin: 180px auto 0 auto;
+		margin: 0 auto 0 auto;
+	}
+	.homepage .swiper-container {
+		width: 100%;
 	}
 }

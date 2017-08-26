@@ -16,11 +16,13 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: var(--desktopSpacing);
 	max-width: 1008px;
 	position: relative;
 }
 @media (--view-medium) {
 	.container {
+		margin-top: var(--mobileSpacing);
 		padding: 0 1rem;
 	}
 }
@@ -50,10 +52,10 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 .contact-bg {
+	height: 100vh;
 	&::before {
 		background-image: url(../images/md_home_contact.jpg);
 	}
-
 }
 .clientsandawards-bg {
 	&::before {

@@ -53,6 +53,20 @@ module.exports = {
 			"logopath": "abj_award.jpg"
 		}
 	],
+	"homepage": [
+		{
+			"title": "what is gangnam style?",
+			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+		},
+		{
+			"title": "what is gangnam style?",
+			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+		},
+		{
+			"title": "what is gangnam style?",
+			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+		}
+	],
 	"work": [
 		{
 			"client": "Jose Cuervo",
