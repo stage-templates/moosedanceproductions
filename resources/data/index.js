@@ -55,16 +55,36 @@ module.exports = {
 	],
 	"homepage": [
 		{
-			"title": "what is gangnam style?",
-			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+			"title": "",
+			"video": "https://player.vimeo.com/video/188569376"
 		},
 		{
-			"title": "what is gangnam style?",
-			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+			"title": "",
+			"video": "https://player.vimeo.com/video/191251406"
 		},
 		{
-			"title": "what is gangnam style?",
-			"video": "www.youtube.com/embed/wzgkQH0r-Fs"
+			"title": "",
+			"video": "https://player.vimeo.com/video/188568473"
+		},
+		{
+			"title": "",
+			"video": "https://player.vimeo.com/video/201616343"
+		},
+		{
+			"title": "",
+			"video": "https://player.vimeo.com/video/203376998"
+		},
+		{
+			"title": "",
+			"video": "https://player.vimeo.com/video/203378610"
+		},
+		{
+			"title": "",
+			"video": "https://player.vimeo.com/video/225320557"
+		},
+		{
+			"title": "",
+			"video": "https://player.vimeo.com/video/225604441"
 		}
 	],
 	"work": [
