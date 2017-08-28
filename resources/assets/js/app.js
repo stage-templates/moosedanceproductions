@@ -3,19 +3,29 @@
  */
 import "swiper";
 import "classlist-polyfill";
+const doc = document;
+const classList = doc.body.classList;
+let routes = [
+	'/',
+	'about',
+	'clientsandawards',
+	'contact',
+	'index',
+	'work'
+];
+let url = window.location.pathname.replace('/', '').replace('.html', '');
 
-document.getElementById('menu').onclick = function(){
-	document.getElementsByTagName('body')[0].classList.toggle("is-visible");
+doc.getElementById('menu').onclick = function(){
+	doc.getElementsByTagName('body')[0].classList.toggle("is-visible");
 }
 if (window.location.pathname === '/') {
-	document.body.classList.add('index-bg');
+	classList.add('index-bg');
 } else {
-	var url = window.location.pathname.replace('/', '').replace('.html', '');
-	document.body.classList.add(url + '-bg');
+	classList.add(url + '-bg');
 }
 
 
-var swiper = new Swiper('.swiper-container', {
+let swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',

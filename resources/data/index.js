@@ -9,7 +9,10 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"clients": [
 		{
-			"logopath": "jose-logo.png"
+			"logopath": "trumid.jpg"
+		},
+		{
+			"logopath": "mic.jpg"
 		},
 		{
 			"logopath": "microsoft-logo.png"
@@ -25,6 +28,9 @@ module.exports = {
 		},
 		{
 			"logopath": "the-winslow-logo.png"
+		},
+		{
+			"logopath": "jose-logo.png"
 		},
 		{
 			"logopath": "cbr-logo.png"
@@ -50,6 +56,10 @@ module.exports = {
 	"homepage": [
 		{
 			"title": "",
+			"video": "https://player.vimeo.com/video/225320557"
+		},
+		{
+			"title": "",
 			"video": "https://player.vimeo.com/video/188569376"
 		},
 		{
@@ -71,10 +81,6 @@ module.exports = {
 		{
 			"title": "",
 			"video": "https://player.vimeo.com/video/203378610"
-		},
-		{
-			"title": "",
-			"video": "https://player.vimeo.com/video/225320557"
 		},
 		{
 			"title": "",
