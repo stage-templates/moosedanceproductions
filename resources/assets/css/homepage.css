@@ -43,7 +43,7 @@
 .homepage .clients {
 	width: 100%;
 }
-@media (view-medium) {
+@media (--view-medium) {
 	.whatwedo {
 		margin: 0 auto 0 auto;
 	}
