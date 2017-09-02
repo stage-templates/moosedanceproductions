@@ -77,8 +77,26 @@
 .work-list li a:hover div {
     left: 0px;
 }
+
+.work-video {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1050px;
+}
+.video {
+	margin-bottom: 2rem;
+	width: 620px;
+}
+.video-content {
+	padding-left: 1rem;
+	width: 22rem;
+}
 @media (--view-medium) {
 	.work-list {
 		margin: 180px auto 20px auto;
+	}
+	.video {
+		width: 100%;
 	}
 }
