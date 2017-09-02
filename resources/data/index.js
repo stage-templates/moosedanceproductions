@@ -60,15 +60,15 @@ module.exports = {
 		},
 		{
 			"title": "",
-			"video": "https://player.vimeo.com/video/188569376"
+			"video": "https://player.vimeo.com/video/231794037"
 		},
 		{
 			"title": "",
-			"video": "https://player.vimeo.com/video/191251406"
+			"video": "https://player.vimeo.com/video/231793825"
 		},
 		{
 			"title": "",
-			"video": "https://player.vimeo.com/video/188568473"
+			"video": "https://player.vimeo.com/video/231792164"
 		},
 		{
 			"title": "",
