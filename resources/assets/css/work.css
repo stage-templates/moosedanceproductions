@@ -84,9 +84,12 @@
 	margin: 0 auto;
 	max-width: 1050px;
 }
-.video {
+.video-container {
 	margin-bottom: 2rem;
 	width: 620px;
+}
+.video {
+	height: 353px;
 }
 .video-content {
 	padding-left: 1rem;
@@ -96,7 +99,23 @@
 	.work-list {
 		margin: 180px auto 20px auto;
 	}
-	.video {
+	.video-container {
 		width: 100%;
+	}
+	html.fancybox-lock,
+	.fancybox-lock body {
+  		overflow-x: hidden;
+	}
+	.fancybox-lock body {
+		position: relative
+	}
+}
+@media (--view-small) {
+	.video {
+		height: 250px;
+	}
+	.facey-overlay-fixed {
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 }
