@@ -1,14 +1,13 @@
 /* ABOUT */
 
-.about {
-	& a {
+.about a {
     color: #555;
     text-decoration: none;
-	}
 }
 .about-content {
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto 2rem auto;
-	width: 295px;
 }
 .jackfont {
     font-size: 17px;
@@ -19,29 +18,44 @@
 	background-color: rgba(0,0,0,0.7);
 	padding: 15px 15px;
 	border-radius: 2px;
+	width: 50%;
 }
 
 .about-content-bg {
     background: url(../images/content-bg.png) repeat-y left top;
     min-height: 200px;
 	padding: 17px 24px;
+	width: 295px;
 }
 
 .about-content-bg p {
     font-family: arial;
     font-size: 12px;
     margin-bottom: 10px;
+	width: 250px;
 }
 @media (--view-tablet) {
 	.about {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 20px;
+		margin-top: var(--mobileSpacing);
 	}
 	.about-content {
 		margin: 0;
 	}
 	.about-content:nth-child(2) {
 		width: 232px;
+	}
+}
+@media (--view-small) {
+	.about-bg {
+		height: 100%;
+	}
+	.about-content {
+		align-items: center;
+		flex-direction: column;
+	}
+	.jackfont {
+		width: 80%;
 	}
 }
