@@ -134,7 +134,7 @@ module.exports = {
 			"client": "Visto by Collective",
 			"title": "Visto: Animated Explainer",
 			"description": "An explainer video for ad tech company, Visto",
-			"video": "player.vimeo.com/video/203378610s",
+			"video": "player.vimeo.com/video/203378610",
 			"image": "visto.png"
 		},
 		{
