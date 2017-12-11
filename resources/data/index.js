@@ -89,6 +89,55 @@ module.exports = {
 	],
 	"work": [
 		{
+			"client": "Trumid",
+			"title": "Trumid Animated Explainer",
+			"description": "A campaign launching a new product for the financial tech company, Trumid.",
+			"video": "player.vimeo.com/video/225320557",
+			"image": "trumid.png"
+		},
+		{
+			"client": "Bleacher Report",
+			"title": "Max Lamm - The Blind Wrestler",
+			"description": "An award-winning piece produced for Bleacher Report that lead to a sold campaign for Dove.",
+			"video": "player.vimeo.com/video/231792164",
+			"image": "blind-wresler.png"
+		},
+		{
+			"client": "Bleacher Report",
+			"title": "That Time The Halftime Show Almost Didn't Happen",
+			"description": "An animated story about a near disaster at the Super Bowl.",
+			"video": "player.vimeo.com/video/231794037",
+			"image": "superbowl-thumbnail.png"
+		},
+		{
+			"client": "B/R Studios",
+			"title": "Mini Michael Jordan",
+			"description": "He's 4'5\" and has the NBA talking.",
+			"video": "player.vimeo.com/video/231793825",
+			"image": "mini-jordan.png"
+		},
+		{
+			"client": "Bleacher Report",
+			"title": "Bareknuckle Boxing",
+			"description": "An exclusive look inside the world of illegal bareknuckle boxing.",
+			"video": "player.vimeo.com/video/201616343",
+			"image": "boxing.png"
+		},
+		{
+			"client": "McDonalds, Gatorade, Samsung, Dove",
+			"title": "B/R Studios Reel",
+			"description": "Sizzle reel of B/R Studios branded content projects",
+			"video": "player.vimeo.com/video/203376998",
+			"image": "br-reel.png"
+		},
+		{
+			"client": "Visto by Collective",
+			"title": "Visto: Animated Explainer",
+			"description": "An explainer video for ad tech company, Visto",
+			"video": "player.vimeo.com/video/203378610s",
+			"image": "visto.png"
+		},
+		{
 			"client": "Jose Cuervo",
 			"title": "what is gangnam style?",
 			"description": "A video project for Jose Cuervo in which Pro Beach Volleyball players were asked: “Do you know what Gangnam Style is?” The results are… interesting.",
