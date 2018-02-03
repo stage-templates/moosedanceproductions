@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     plumber = require('gulp-plumber'),
     util = require('gulp-util'),
-    handlbarsConfig = require('./handlebars.config.js');
+    handlbarsConfig = require('./build/handlebars.config.js');
 
 gulp.task('handlebars', ['templates']);
 gulp.task('templates', function () {
