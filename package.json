@@ -2,7 +2,7 @@
     "name": "moosedanceproductions",
     "description": "Official MooseDance Productions Website",
     "author": "freddyroberts9@gmail.com",
-    "version": "0.0.7",
+    "version": "0.0.6",
     "private": true,
     "scripts": {
         "build": "npm-run-all --serial clean --parallel copy js css templates",
@@ -17,7 +17,7 @@
         "css": "postcss -c build/postcss.config.js",
         "js": "rollup -c build/rollup.config.js",
         "publish": "bash ./build/publish.sh",
-        "postversion": "git push --set-upstream production && git push --tags",
+        "postversion": "git push --set-upstream origin production build && git push --tags",
         "serve": "browser-sync start -c build/browsersync.config.js",
         "test": "cross-env NODE_ENV=production npm run build",
         "templates": "gulp",
