@@ -1,6 +1,7 @@
 git checkout production
 npm version patch
 npm run build:prod
+cp ./resources/assets/CNAME ./httpdocs
 cd httpdocs
 git init
 git add -A

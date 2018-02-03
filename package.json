@@ -13,7 +13,6 @@
         "copy:fonts": "cpx \"resources/assets/fonts/**/*.js\" httpdocs/assets/fonts",
         "copy:jslibs": "cpx \"resources/assets/js/libs/*.js\" httpdocs/assets/js/libs",
         "copy:csslibs": "cpx \"resources/assets/css/libs/*.css\" httpdocs/assets/css/libs",
-        "copy:htaccess": "cpx resources/.htaccess httpdocs",
         "css": "postcss -c build/postcss.config.js",
         "js": "rollup -c build/rollup.config.js",
         "publish": "bash ./build/publish.sh",
