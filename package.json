@@ -9,7 +9,7 @@
         "build:prod": "cross-env NODE_ENV=production npm run build",
         "clean": "del-cli httpdocs",
         "copy": "npm-run-all --parallel copy:**",
-        "copy:img": "cpx \"resources/assets/img/**/*.{jpg,jpeg,gif,png,svg}\" httpdocs/assets/images",
+        "copy:img": "cpx \"resources/assets/img/**/*.{jpg,jpeg,gif,png,svg,ico}\" httpdocs/assets/images",
         "copy:fonts": "cpx \"resources/assets/fonts/**/*.js\" httpdocs/assets/fonts",
         "copy:jslibs": "cpx \"resources/assets/js/libs/*.js\" httpdocs/assets/js/libs",
         "copy:csslibs": "cpx \"resources/assets/css/libs/*.css\" httpdocs/assets/css/libs",
