@@ -12,14 +12,10 @@ yarn
 npm run watch
 ```
 
-## Deployment
+## Publish to GitHub Pages
 
-Easy Rsync deployment with [project-sync](https://www.npmjs.com/package/project-sync)
+Publishes the minified httpdocs content of the production branch to the gh-pages branch.
 
 ``` bash
-# production
-$ npm run deploy:prod
-
-# dev or staging
-$ npm run deploy:dev
+$ npm run publish
 ```
