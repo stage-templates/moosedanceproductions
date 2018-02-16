@@ -16,7 +16,7 @@
         "css": "postcss -c build/postcss.config.js",
         "js": "rollup -c build/rollup.config.js",
         "publish": "bash ./build/publish.sh",
-        "postversion": "git push --set-upstream origin production build && git push --tags",
+        "postversion": "git push --set-upstream origin production && git push --tags",
         "serve": "browser-sync start -c build/browsersync.config.js",
         "test": "cross-env NODE_ENV=production npm run build",
         "templates": "gulp",
