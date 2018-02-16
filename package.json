@@ -2,7 +2,7 @@
     "name": "moosedanceproductions",
     "description": "Official MooseDance Productions Website",
     "author": "freddyroberts9@gmail.com",
-    "version": "2.1.3",
+    "version": "2.1.4",
     "private": true,
     "scripts": {
         "build": "npm-run-all --serial clean --parallel copy js css templates",
