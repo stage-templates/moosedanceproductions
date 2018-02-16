@@ -6,6 +6,6 @@ cd httpdocs
 git init
 git add -A
 git commit -m 'publish'
-git push -f git@github.com:stage-templates/moosedanceproductions.git production:gh-pages
+git push -f git@github.com:stage-templates/moosedanceproductions.git master:gh-pages
 cd ../
 npm run build
