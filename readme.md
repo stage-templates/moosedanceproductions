@@ -2,6 +2,8 @@
 
 > [The Official Moosedance Productions Website](https://moosedanceproductions.com)
 
+![Build Status](https://ci.appveyor.com/api/projects/status/7lpsp5ckhwrfglej?svg=true")
+
 ## Build Setup
 
 ``` bash

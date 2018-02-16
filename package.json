@@ -18,7 +18,7 @@
         "publish": "bash ./build/publish.sh",
         "postversion": "git push --set-upstream origin production && git push --tags",
         "serve": "browser-sync start -c build/browsersync.config.js",
-        "test": "cross-env NODE_ENV=production npm run build",
+        "test": "npm run build:prod",
         "templates": "gulp",
         "templates:watch": "gulp watch",
         "watch": "npm-run-all build --parallel \"js -- --watch\" \"css -- --watch\" \"copy:img -- --watch\" templates:watch serve"
